@@ -1,0 +1,9 @@
+#距离度量的确定
+可选用jaccard 距离\海明距离
+
+# k-means 聚类算法适合于欧氏距离
+# SOM神经网络算法适合于同k-means
+# 层次聚类分析距离适合于jaccard（目前仅仅）型式
+# FCM模糊数学分析
+
+四种算法的研究对比：http://www.cnblogs.com/William_Fire/archive/2013/02/09/2909499.html

@@ -1,0 +1,28 @@
+install intruduce
+
+install jdk
+tar ...
+config file /etc/profile
+export JAVA_HOME=/usr/local/java/jdk1.8.0_25 
+export JRE_HOME=${JAVA_HOME}/jre 
+export CLASSPATH=.:${JAVA_HOME}/lib:${JRE_HOME}/lib 
+export PATH=${JAVA_HOME}/bin:$PATH
+
+install ssh
+sudo apt-get install openssh-server  
+config ssh login without passwd
+>ssh-keygen  -t  rsa  -P  ''  -f  ~/.ssh/id_rsa
+>cat  ~/.ssh/id_rsa.pub  >>  ~/.ssh/authorized_keys
+install hadoop
+search on net
+install mysql 
+sudo apt-get install mysql-server mysql-client
+install  hive
+search on net
+install spark
+search on net
+
+
+
+analysis page install 
+

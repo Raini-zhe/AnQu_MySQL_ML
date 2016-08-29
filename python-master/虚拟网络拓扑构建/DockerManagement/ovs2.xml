@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ovs>
+	<node>
+		<ovs_define ovs_id="5">
+			<ovs_name>交换机5</ovs_name>
+			<docker_num>4</docker_num>
+			<docker_image>ubuntu:latest</docker_image>
+		</ovs_define>
+
+
+		<ovs_define ovs_id="6" >
+			<ovs_name>交换机6</ovs_name>
+			<docker_num>0</docker_num>
+			<docker_image>ubuntu:latest</docker_image>
+		</ovs_define>
+
+
+		<ovs_define ovs_id="7">
+			<ovs_name>交换机7</ovs_name>
+			<docker_num>3</docker_num>
+			<docker_image>ubuntu:latest</docker_image>
+		</ovs_define>
+
+		<ovs_define ovs_id="8">
+			<ovs_name>交换机8</ovs_name>
+			<docker_num>5</docker_num>
+			<docker_image>ubuntu:latest</docker_image>
+		</ovs_define>
+
+		<ovs_define ovs_id="9">
+			<ovs_name>交换机9</ovs_name>
+			<docker_num>5</docker_num>
+			<docker_image>ubuntu:latest</docker_image>
+		</ovs_define>
+
+	</node>
+
+	<relation>
+		<ovs-ovs>
+			<point1>7</point1>
+			<point2>8</point2>
+		</ovs-ovs>
+
+		<ovs-ovs>
+			<point1>5</point1>
+			<point2>6</point2>
+		</ovs-ovs>
+
+
+		<ovs-ovs>
+			<point1>5</point1>
+			<point2>8</point2>
+		</ovs-ovs>
+
+		<ovs-ovs>
+			<point1>9</point1>
+			<point2>8</point2>
+		</ovs-ovs>
+
+	</relation>
+</ovs>

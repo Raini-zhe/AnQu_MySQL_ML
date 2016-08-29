@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<host>
+	<host_config host_id="1">
+		<host_ip>127.0.0.1</host_ip>
+		<docker_version>1.7.1</docker_version>
+		<mem>1024</mem>
+		<cpu>2.3</cpu>
+	</host_config>
+</host>

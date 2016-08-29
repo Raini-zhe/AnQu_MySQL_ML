@@ -1,0 +1,7 @@
+#data format define
+
+spider result file define as searchApp_'contry short '+dateTime.txt
+
+data deal result : call data save API
+
+ 
